@@ -30,3 +30,10 @@ Instruction
 
 	2.1 !!explorer.exe will be closed and a new explorer.exe ill be opened on the PWD!!
 3. Launch void_cache.exe
+
+Downsides
+=============
+- If explorer.exe is restart is the task manager, the changes will be reverted. (only with AD GPO)
+- 
+
+
