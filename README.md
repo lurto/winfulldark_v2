@@ -34,5 +34,5 @@ Instruction
 Downsides
 =============
 - If explorer.exe is restarted in the task manager, the changes will be reverted. (only with Active Directory GPO)
-- After restart or Winodws user log out, changes will be reverted. (only with Active Directory GPO)
+- After restart or Winodws user log out, the changes will be reverted. (only with Active Directory GPO)
 
