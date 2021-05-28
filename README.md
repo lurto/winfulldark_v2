@@ -2,10 +2,6 @@
 
 ![](https://cdn.iconscout.com/icon/free/png-256/microsoft-windows-2-761692.png)
 
-**Table of Contents**
-
-[TOCM]
-
 Features
 =============
 
@@ -21,7 +17,6 @@ Warning
 =============
 + The script will block the system form accessing this registry key : 
 > HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
-
 	+ which used by the GPOs and the local group policy for setting the wallpaper
 + The script will bypass administrator rights requirement for chaging the registry ACL
 	+ use only with consent from the administrator
