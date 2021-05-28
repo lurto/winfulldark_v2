@@ -33,7 +33,6 @@ Instruction
 
 Downsides
 =============
-- If explorer.exe is restart is the task manager, the changes will be reverted. (only with AD GPO)
-- 
-
+- If explorer.exe is restarted is the task manager, the changes will be reverted. (only with AD GPO)
+- After restart or Winodws user logout, changes will be reverted. (only with AD GPO)
 
