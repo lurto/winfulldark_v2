@@ -28,7 +28,7 @@ Instruction
 1. Download the ZIP and unzip it
 2. Launch winfulldark_v2.exe
 
-	2.1 !!explorer.exe will be closed and a new explorer.exe ill be opened on the PWD!!
+	2.1 !!explorer.exe will be closed and a new explorer.exe will be opened on the PWD!!
 3. Launch void_cache.exe
 
 Downsides
