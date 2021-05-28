@@ -15,7 +15,7 @@ Features
 
 Warning
 =============
-+ The script will block the system form accessing this registry key
++ The script will block the system from accessing this registry key
 	+ which used by the GPOs and the local group policy for setting the wallpaper
 > HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 	
