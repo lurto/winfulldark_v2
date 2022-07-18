@@ -1,10 +1,10 @@
 ﻿#source :  https://toucharena.com/how-enable-windows-10-dark-theme/#:~:text=Using%20PowerShell%20(Easiest%20Way)&text=Go%20to%20Search%2C%20type%20in%20PowerShell%2C%20and%20open%20it.&text=Now%20go%20to%20Start%20menu,That's%20it!
-#disables windows lignt mode in registry
+#disables windows light mode in the registry
 function lightmode{
 Set-ItemProperty  -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Themes\Personalize -Name AppsUseLightTheme -Value 0
 }
 
-#soucre :  https://www.powershellgallery.com/packages/Set-DesktopBackGround/1.0.0.0/Content/Set-DesktopBackGround.ps1
+#source :  https://www.powershellgallery.com/packages/Set-DesktopBackGround/1.0.0.0/Content/Set-DesktopBackGround.ps1
 function background{
 param(
 [Parameter(Position=0)]
@@ -186,7 +186,7 @@ function coloraccent{
     Stop-Process -ProcessName explorer -Force -ErrorAction SilentlyContinue
 }
 
-#removes the access of the system on the regestry for the wallpaper
+#removes the access of the system on the registry for the wallpaper
 function acl {
 Invoke-Expression -Command: "start acl.exe"
 
@@ -194,10 +194,10 @@ Set-ItemProperty  -Path HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
 }
 
 
-#diables lightmode function
+#disables lightmode function
 lightmode
 
-#puts a black color as the background even if there is all ready an image
+#puts a black color as the background even if there is already an image
 background
 #changes the background image
 image
@@ -205,7 +205,7 @@ image
 #grey color accent
 coloraccent
 
-#disables the access from the system to the regertry for the wallpaper
+#disables the access from the system to the registry for the wallpaper
 acl
 
 #the explorer will be closed, this command will reopen it - don't forget to manually open void_cache.exe

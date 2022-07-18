@@ -7,7 +7,7 @@ Features
 
 - Changes the windows background to be completely black
 - Activates Windows dark mode
-- Puts the Windows accent to the darkest color possible
+- Puts the Windows accent color to the darkest color possible
 - Works even if Winodws is **not** activated 
 - **Bypasses** local group policy
 - **Bypasses** Active Directory GPO
@@ -16,10 +16,10 @@ Features
 Warning
 =============
 + The script will block the system from accessing this registry key
-	+ which used by the GPOs and the local group policy for setting the wallpaper
+	+ which is used by the GPOs and the local group policy to set the wallpaper
 > HKCU:\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System
 	
-+ The script will bypass administrator rights requirement for chaging the registry ACL
++ The script will bypass administrator rights requirement for changing the registry ACL
 	+ use only with consent from the administrator
 
 
@@ -34,5 +34,5 @@ Instruction
 Downsides
 =============
 - If explorer.exe is restarted in the task manager, the changes will be reverted. (only with Active Directory GPO)
-- After restart or Winodws user log out, the changes will be reverted. (only with Active Directory GPO)
+- After a restart or a Windows user log out, the changes will be reverted. (only with Active Directory GPO)
 
